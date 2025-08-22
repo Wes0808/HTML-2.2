@@ -73,10 +73,15 @@ li{
     justify-content: center;
 }
 
+#about,
+discord,
+contact{
+    padding: 48px 0;
+}
+
 /* ABOUT*/
 
 #about{
-    padding: 48px 0;
     background-color: #f8ffdc;
 }
 
@@ -107,4 +112,35 @@ img{
     font-size: 20px;
     line-height: 1.5;
     margin-bottom: 24px;
+}
+
+/*
+DISCORD SECTION
+*/
+
+#discord{
+    background-color: #cefeff;
+}
+
+/*
+CONTACT SECTION
+*/
+
+#contact{
+    background-color: #dce9ff;
+    padding: 24px;
+}
+
+form{
+    width: 100%;
+    display: flex;
+    max-width: 600px;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+input, textarea{
+    margin-bottom: 24px;
+    font-size: 20px;
+    padding: 6px 12px;
 }
