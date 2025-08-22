@@ -77,10 +77,34 @@ li{
 
 #about{
     padding: 48px 0;
+    background-color: #f8ffdc;
 }
 
 .section__desc{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.about__img--wrapper{
+    width: 40%;
+}    
+
+img{
+    width: 100%;
+}
+
+.section__desc--wrapper{
+    width: 60%;
+}    
+
+.about__img--wrapper,
+.section__desc--wrapper{
+    padding: 0 24px;
+}
+
+.section__desc--para{
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 24px;
 }
